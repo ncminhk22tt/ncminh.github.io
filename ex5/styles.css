@@ -48,11 +48,15 @@ margin-top: 5px;
 margin-bottom: 5px;
 font-size: 18px;
 }
-.flavor, .dessert {
+.flavor {
 text-align: left;
 width: 75%;
 }
 
+.dessert {
+text-align: left;
+width: 75%;
+}
 .price { 
 text-align: right; 
 width: 25%;
