@@ -6,7 +6,7 @@ body {
 
 h1 {
     font-size: 40px;
-    margin: 0;
+    margin-top: 0;
     margin-bottom: 15px;
 }
 
@@ -34,7 +34,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: -25px;
+    margin-top: -25px;
 }
 
 hr {
@@ -51,14 +51,14 @@ h1, h2 {
     margin-top: 25px;
 }
 
-.muc p {
+.item p {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 18px;
 }
 
-.flavor, .dessrst {
+.flavor, .desserst {
     text-align: left;
     width: 25%;
 }
