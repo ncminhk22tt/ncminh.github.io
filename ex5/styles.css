@@ -1,8 +1,8 @@
 body {
-background-image: url(images/beans.jpg);
+background-image: url(beans.jpg);
 font-family: sans-serif;
-}
 padding: 20px;
+}
 h1 {
 font-size: 40px;
 margin-top: 0;
@@ -48,12 +48,14 @@ margin-top: 5px;
 margin-bottom: 5px;
 font-size: 18px;
 }
-.flavor, dessert {
+.flavor, desserst {
 text-align: left;
 width: 75%;
 }
 
-price { text-align: right; width: 25%;
+price { 
+text-align: right; 
+width: 25%;
 }
 /* FOOTER */
 footer { font-size: 14px;
