@@ -47,6 +47,10 @@ h1, h2 {
     font-family: Impact, serif;
 }
 
+.bomtom-line {
+    margin-top: 25px;
+}
+
 .muc p {
     display: inline-block;
     margin-top: 5px;
@@ -54,7 +58,7 @@ h1, h2 {
     font-size: 18px;
 }
 
-.huongvi, trangmieng {
+.huongvi, .trangmieng {
     text-align: left;
     width: 25%;
 }
