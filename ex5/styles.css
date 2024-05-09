@@ -1,5 +1,5 @@
 body {
-    background-image: url(benas.jpg);
+    background-image: url(beans.jpg);
     font-family: sans-serif;
     padding: 20px;
 }
@@ -14,7 +14,7 @@ h2 {
     font-size: 30px;
 }
 
-.thietlap {
+.established {
     font-style: italic;
 }
 
@@ -22,7 +22,7 @@ h1, h2, p {
     text-align: center;
 }
 
-.thucdon {
+.menu {
     width: 80%;
     background-color: burlywood;
     margin-left: auto;
@@ -58,12 +58,12 @@ h1, h2 {
     font-size: 18px;
 }
 
-.huongvi, .trangmieng {
+.flavor, .dessrst {
     text-align: left;
     width: 25%;
 }
 
-.gia {
+.price {
     text-align: right;
     width: 25%;
 }
