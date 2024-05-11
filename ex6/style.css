@@ -1,0 +1,66 @@
+.khungnho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: orange;
+    margin-bottom: 0.5rem;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin-right: 1rem;
+}
+
+.khunglon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 1rem 0;
+}
+
+.khunghinh{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 28rem;
+    height: 25rem;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    margin: 15px auto;
+    overflow: hidden;
+}
+
+.hinh{
+    width: 28rem;
+    height: 20rem;
+}
+
+.mon{
+    color: black;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+.do{
+    text-decoration: none;
+    background: brown;
+    color: #fff;
+    margin: 0.3rem;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    
+}
+
+
+
