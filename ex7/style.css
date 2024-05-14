@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+
+header{
+    color: white;
+    background-image: url('hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.tieude{
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-weight: 700;
+    font-size: .875em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    background-color: rgba(124, 124, 124, 0.9);
+}
+
+.logoUDCK{
+    max-width: 6em;  
+}
+
+.duongdan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.duongdan a{
+    display: block;
+    text-align: center;
+    margin: 20px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.nut:hover{
+    background-color: rgb(216, 216, 228);
+    color: white;
+}
+
+.hero{
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: normal;
+    text-align: center;
+    z-index: 1;
+}
+
+.hero a.nut{
+    border: 0;
+    background-color: rgb(24, 24, 223);
+    display: inline-block;
+}
+
+.hero a.nut:hover{
+    background-color: rgb(25, 137, 230);
+    color: inherit;
+}
+
+.hero a{
+    font-size: 0.9em;
+}
+
+.hero em{
+    font-size: 1.25em;
+    letter-spacing: 1px;
+}
+
+.hero strong{
+    font-size: 4.25em;
+    letter-spacing: 4px;
+}
+
+.nut{
+    padding: 10px 15px;
+    border-radius: 100px;
+    text-align: center;
+    border: none;
+    transition: 0.5s linear;
+}
+
+.main{
+    text-align: center;
+    padding: 30px;
+}
+
+section{
+    margin: 50px auto;
+    text-align: center;
+}
+.main h1{
+    font-size: 1.75em;
+    margin-bottom: 10px;
+    font-weight: normal;
+    color: rgba(26, 26, 26, .9);
+}
+
+.main p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    line-height: 1.5;
+}
+
+.hangcha{
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+}
+
+.hangcon{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.hangcon div{
+    flex-basis: 45%;
+    flex-grow: 1;
+    padding: 50px;
+}
+
+.hangcon img{
+    width: 600px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 7px;
+    transition: 0.3s linear;
+}
+
+.hangcon img:hover{
+    transform: scale3d(0.6, 0.8, 0.6);
+}
+
+.hangcon h1{
+    color: greenyellow;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+.hangcon h1{
+    color: rgba(61, 153, 145);
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+div.hangcon:nth-child(odd){
+    background-color: rgba(65, 65, 125, 0.1);
+}
+
+.lienhe{
+    display: flex;
+    flex-direction: column;
+}
+
+.lienhe .hangtt{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lienhe .hangtt iframe{
+    width: 50%;
+}
+.lienhe .hangtt .thongtin{
+    padding: 0 10px;
+    width: calc(100% - 50px);
+}
+.lienhe .thongtin p{
+    margin-bottom: 10px;
+}
+
+.lienhe .thongtin p i{
+    margin-right: 10px;
+}
+.nhap form input{
+    height: 45px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1em;
+    outline: none;
+    border: 1px solid #bfbfbf;
+}
+
+.nhap form textarea{
+    height: 150px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1em;
+    outline: none;
+    border: 1px solid #bfbfbf;
+    resize: vertical;
+}
+
+.nhap form button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgba(124, 124, 124);
+    transition: 0.2s ease;
+}
+
+.nhap form button:hover{
+    background-color: rgb(65, 105, 225);
+}
+
+footer{
+    background-color: rgba(31, 31, 31);
+    color: rgb(255, 255, 255, .8);
+    padding: 75px;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+footer p{
+    color: rgb(255, 255, 255, .4);
+}
+
+@media(max-width: 900px){
+    body{
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 550px){
+    body{
+        font-size: 12px;
+    }
+}
+
+#menu-bt, #menu-bt-btn, .tieude i.bx-x{
+    display: none;
+    cursor: pointer;
+}
+
+@media(max-width: 850px){
+    #menu-bt-btn{
+        display: block;
+    }
+    .tieude i.bx-menu{
+        display: block;
+        font-size: 4em;
+    }
+    .duongdan{
+        display: block;
+        position: fixed;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        top: 68px;
+        background-color: rgba(124, 124, 124, 0.9);
+        transition: 0.3s ease;
+        font-size: 1.5em;
+    }
+    .duongdan a{
+        margin: 50px 200px;
+    }
+}
+
+@media(max-width: 700px){
+    header{
+        height: 300px;
+        line-height: 1.2;
+    }
+}
+
+#menu-bt:checked ~ .duongdan{
+    right: 0;
+}
+
+#menu-bt:checked ~ #menu-bt-btn i.bx-menu{
+    display: none;
+}
+
+#menu-bt:checked ~ #menu-bt-btn i.bx-x{
+    display: block;
+    font-size: 4em;
+}
+
+@media(max-width: 700px){
+    .hero strong{
+        font-size: 2em;
+        letter-spacing: 4px;
+    }
+}
+
+@media(max-width: 850px){
+    .hangcon{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 850px){
+    .lienhe .hangtt{
+        flex-direction: column;
+    }
+    .lienhe .hangtt iframe{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .lienhe .hangtt .thongtin{
+        margin-bottom: 40px;
+        width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
