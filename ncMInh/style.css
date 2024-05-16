@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url('hero.png');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tieude{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.duongdan{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+
+.duongdan a{
+    display: block;
+    text-align: center;
+    margin-right: 30px;
+    color: black;
+    text-decoration: none;
+}
+.coffee{
+    font-size: 4em;
+    color: black;
+}
+
+.heart{
+    font-size: 4em;
+    color: orange;
+}
+
+.khunglon{
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    margin-left: 400px;
+    margin-top: 150px;
+}
+.khunglon strong{
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.khunglon a{
+    font-size: 1em;
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.khunglon .nut{
+    border: 0;
+    background-color: white;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.khunglon .nut:hover{
+    background-color: brown;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main1{
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main1 p{
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+.main1 a{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.main2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main3 .hinh{
+    height: 300px;
+    width: 400px;
+    margin-left: 70px;
+}
+
+.main3 p{
+    color: aqua;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.main3 a{
+    margin: 0 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.den{
+    background-color: black;
+    text-align: center;
+    color: azure;
+    padding: 50px;
+}
+
+.den p{
+    padding: 10px;
+}
+.den a{
+    color: rgb(112, 112, 105);
+}
+
+#menu-bt, #menu-bt-btn, .tieude i.bx-x{
+    display: none;
+    cursor: pointer;
+}
+
+@media(max-width: 700px){
+    #menu-bt-btn{
+        display: block;
+    }
+    .tieude i.bx-menu{
+        display: block;
+        font-size: 4em;
+    }
+    .duongdan{
+        display: block;
+        position: fixed;
+        right: -100%;
+        width: 100%;
+        height: 100%;
+        top: 68px;
+        background-color: rgba(124, 124, 124, 0.9);
+        transition: 0.3s ease;
+        font-size: 1.5em;
+    }
+    .duongdan a{
+        margin: 50px 200px;
+    }
+}
+
+@media(max-width: 700px){
+    header{
+        height: 300px;
+        line-height: 1.2;
+    }
+}
+
+#menu-bt:checked ~ .duongdan{
+    right: 0;
+}
+
+#menu-bt:checked ~ #menu-bt-btn i.bx-menu{
+    display: none;
+}
+
+#menu-bt:checked ~ #menu-bt-btn i.bx-x{
+    display: block;
+    font-size: 4em;
+}
