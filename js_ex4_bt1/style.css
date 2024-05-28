@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.tieude h1{
+    padding-bottom: 20px;
+}
+
+.tieude h2{
+    padding-bottom: 20px;
+}
+
+.tieude p{
+    padding-bottom: 10px;
+}
+
+.nuttren{
+    display: flex;
+    background-color: rgb(194, 206, 206, 0.5);
+    height: 22px;
+    align-items: center;
+    border: double 1px;
+}
+
+.nutduoi{
+    padding-left: 30px;
+    padding-top: 10px;
+}
