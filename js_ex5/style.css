@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+}
+
+.chinh{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bbaee3;
+    height: 200px;
+}
+
+h2{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: white;
+    font-weight: 800;
+}
+
+.nhap{
+    display: flex;
+}
+
+#text{
+    height: 45px;
+    width: 700px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.nut{
+    height: 45px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(177, 165, 165);
+}
+
+.nut:hover{
+    background-color: teal;
+    cursor: pointer;
+}
+
+.task-list {
+    margin-top: 35px;
+    list-style-type: none;
+    padding: 0;
+    width: 98%;
+}
+.task-list li {
+    background-color: rgb(170, 159, 159);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.task-list li:nth-child(even){
+    background-color: #e8e6e6;
+}
+
+.task-list li:nth-child(even) button{
+    background-color: #e8e6e6;
+}
+
+.task-list li button{
+    cursor: pointer;
+    font-size: 30px;
+    background-color: rgb(170, 159, 159);
+    border: none;
+}
+
+
+    
